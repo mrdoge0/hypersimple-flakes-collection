@@ -14,7 +14,7 @@
 
         src = pkgs.fetchurl {
           url = "https://dl.llaun.ch/legacy/bootstrap";
-          sha256 = "sha256-0kkc9cxjn7lrcr6r3np0ba1lfllhp0qf4vcszy00gcx9r0bpbfh9";
+          sha256 = "sha256-Cbp1F8ipsweA/5pt4jC4kFJHg1rg2pFNZpkeKztLbE4=";
         };
 
         nativeBuildInputs = [ pkgs.makeWrapper ];
